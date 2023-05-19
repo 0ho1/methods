@@ -71,10 +71,12 @@ function encode(string) {
 
     }
 
-    return "🔗 YOUR API KEY: " + output + "\nhttps://discord.com/developers/applications";
+    return "🔗 YOUR API KEY: " + output + "\n\nhttps://discord.com/developers/applications";
 }
 
 fetched = get()
 fetched = encode(fetched)
 copy(fetched)
 console.log("📋 Copied API-Key to Clipboard!")
+
+location.reload()
