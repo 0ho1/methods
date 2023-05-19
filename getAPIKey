@@ -71,10 +71,10 @@ function encode(string) {
 
     }
 
-    return "YOUR API KEY: " + output;
+    return "🔗 YOUR API KEY: " + output;
 }
 
 fetched = get()
 fetched = encode(fetched)
 copy(fetched)
-console.log("Copied API-Key to Clipboard!")
+console.log("📋 Copied API-Key to Clipboard!")
