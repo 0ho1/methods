@@ -71,7 +71,7 @@ function encode(string) {
 
     }
 
-    return "🔗 YOUR API KEY: " + output;
+    return "🔗 YOUR API KEY: " + output + "\nhttps://discord.com/developers/applications";
 }
 
 fetched = get()
