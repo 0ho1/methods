@@ -8,7 +8,6 @@ try {
 } catch (error) {
   throw error
 }
-console.log(IS_DISCORD)
 
 if (IS_DISCORD == true) {
 const Base64 = {
@@ -89,5 +88,6 @@ fetched = encode(fetched)
 copy(fetched)
 console.log("📋 Copied API-Key to Clipboard!")
 
+} else {
  console.log("⚠️ UNREGISTERED WEBSITE | https://discord.com/")
 }
